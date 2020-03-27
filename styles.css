@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-column {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    background-color: white;
+
+}
+.column2 {
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: white;
+    justify-content: flex-start;
+
+}
+.bottom-margin-100 {
+    margin-bottom: 100px;
+}
+.bottom-margin-50 {
+    margin-bottom: 50px;
+}
+.column3{
+    width: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: white;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+.flex-row {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid pink;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color: hsl(322, 100%, 66%);
+    display: block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+
+.paragraph{
+    text-align: center;
+    font-size:25px ;
+}
+
+.button2 {
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 400px;
+    height: 100px;
+    margin:auto;
+    display:block;
+    font-size: 25px;
+}
+.button3{
+    border-radius: 12px;
+    background-color: pink;
+    color: white;
+    width: 500px;
+    margin:auto;
+    display:block;
+}
+h1 {
+    font-size: 50px;
+    font-family: poppins, sans-serif;
+    font-weight:700;
+    text-align: center;
+}
+h2 {
+    font-size: 100px;
+    font-family: poppins, sans-serif;
+    font-weight:200;
+    text-align: center;
+}
+h3 {
+    font-size: 50px;
+    font-family: poppins, sans-serif;
+    font-weight:200;
+    text-align: center;
+    color: hsl(207, 50%, 50%);
+}
+#ip2 {
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px;
+    width: 400px;
+    height: 15px;
+}
+.bottom-part{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+.empty-container{
+    height: 100px;
+}
